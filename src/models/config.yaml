@@ -1,0 +1,17 @@
+# Path of Model
+model_path: ""
+
+# GPU training/predicting usage
+use_gpu: True
+
+# The learning rate to be used for training.
+learning_rate: 0.005
+
+# Number of training samples per batch to be passed to network
+batch_size: 128
+
+# Number of epochs to train the model
+epochs: 100
+
+# Flag to enable early stopping
+early_stop: False
