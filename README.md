@@ -9,11 +9,11 @@
 
 ## Processes
 1. <b>Build Computer Vision Detector </b>\
-We implement a YOLO detection model to accurately and consistently identify individuals not following social-distancing guidelines. The strictness of the guidelines can be adjusted accordingly.
-2. <b>Incorporate Blockchain Storage </b>\
-The use of blockchain ledgers and smart contracts preserve the integrity of the data and allows for easy analysis of social distancing practices throughout different locations.
-3. <b>Deploy and Monitor Social Distancing </b>\
-Deploying the detection model to video feed of webcams and record social distancing. The detections made by the model are flowing through the blockchain and good/bad distancing are recorded.
+<todo>
+2. <b> Build Nowcasting Model </b>\
+<todo>
+3. <b>Deploy and Monitor Application </b>\
+<todo>
 
 ## Screenshots
 ![detector](./screenshots/detector.png)
