@@ -6,7 +6,7 @@ from utils import load_config
 
 
 if __name__ == "__main__":
-    config = load_config("./models/config.yaml")
+    config = load_config("./models/cv_config.yaml")
     if config["use_gpu"]:
         assert tf.test.is_gpu_available(), "GPU is not available!"
 
