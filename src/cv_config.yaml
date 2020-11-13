@@ -1,6 +1,9 @@
 # Path of Model
 model_path: "./models"
 
+# Image size
+image_size: 224
+
 # GPU training/predicting usage
 use_gpu: True
 
