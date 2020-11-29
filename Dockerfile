@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt install -y python3
 
 COPY requirements.txt /Mask-Compliance-Detection-and-Nowcasting/requirements.txt
-RUN pip3 install -r /Mask-Compliance-Detection-and-Nowcasting/requirements.txt
+RUN pip install -r /Mask-Compliance-Detection-and-Nowcasting/requirements.txt
 
 WORKDIR /Mask-Compliance-Detection-and-Nowcasting/src
 CMD python3 app.py
